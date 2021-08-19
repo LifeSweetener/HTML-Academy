@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Портфолио Junior верстальщика</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+		<div class="container">
+			<p><b class='header-email'>Email</b>: <a href='mailto:boyletoy@yandex.ru'>BoyLetoy@yandex.ru</a> или <a href='mailto:timllogic@gmail.com'>TimLLogic@gmail.com</a></p>
+			<p><b class='header-phone'>Телефон</b>: <a href='tel:+79772909486'>8 (977) 290-94-86</a></p>
+		</div>
+    </header>
+
+    <section class="hero-image">
+      <h1 class="heading">Тимофей Шайко</h1>
+      <p>Junior верстальщик</p>
+    </section>
+
+    <section class="intro">
+      <h2 class="subheading">Давай познакомимся</h2>
+		<figure class='user-image'>
+			<img src="files/user.jpg" width="400" alt="Моя фотография">
+		</figure>
+      <h3>Пара слов о себе</h3>
+		<div class="container">
+			<p>Привет, друг! Меня зовут Тимофей, мне 21 год.</p>
+			<p>Я люблю красиво оформленный дизайн всех вещей, в том числе сайтов в Интернете! :)</p>
+		</div>
+      <h3>Чем могу быть полезен</h3>
+		<div class="container">
+			<p>Знаю HTML-верстку, CSS-стили, PHP-обработку данных и оживление сайта с помощью великого JavaScript.</p>
+		</div>
+	</section>
+
+    <section class="portfolio">
+      <h2 class="subheading">Мои работы</h2>
+
+      <h3 class='work-header'>Магазин товаров для дома</h3>
+	  		<div class="container">
+				<figure class="project-image">
+					<a href='#button1'><img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома"></a>
+				</figure>
+				<p>
+					Мой первый сайт :)
+				</p>
+				<p>
+					<time datetime='2021-08-12'>Середина августа 2021-ого</time>
+				</p>
+				<a id='button1' class="button" target="_blank" href="source/first_marathon_project/index.html" title='Проект откроется в другой вкладке'>Открыть страницу</a>
+			</div>
+		
+		<h3 class='work-header'>Цветочный магазин</h3>
+	  		<div class="container">
+				<figure class="project-image">
+					<a href='#button2'><img src="files/project2.png" width="928" height="536" alt="Cайт магазина цветов"></a>
+				</figure>
+				<p>
+					Знакомство с приложением <span class='important'>Figma</span> и проектирование по техническому заданию — шаблону Figma — с помощью HTML5 и CSS3.
+				</p>
+				<p>
+					Первое проверяющее навыки крупное задание в <span class='important'>марафоне "HTML Academy"</span>.
+				</p>
+				<p>
+					<time datetime='2021-08-19T22:30:00+03:00'>19.08.2021 (22:30)</time>
+				</p>
+				<a id='button2' class="button" target="_blank" href="source/second_marathon_project/index.html" title='Проект откроется в другой вкладке'>Открыть страницу</a>
+			</div>
+
+      <h3>Блог начинающего верстальщика</h3>
+		<div class="container">
+			<article class='post'>
+				<h4>Готовлюсь к сдаче первой домашней работы</h4>
+				<p>Уже пять часов вечера, а я еще ничего не сделал. Но подготовился вчера к выполнению д/з :)</p>
+				<p>
+				Скачал и установил к себе на компьютер <span class='important'>Figma</span>; просмотрел шаблон, который нужно сверствать самому; попробовал
+				перекинуть из этого шаблона изображения к себе — всё получилось!
+				</p>
+				<p>Сейчас буду приступать к самой вёрстке.</p>
+				<p><time datetime='2021-08-19T17:00:00+03:00'>19.08.2021 (17:00)</time></p>
+			</article>
+			<article class='post'>
+				<h4>Сдаю работу</h4>
+				<p>Сделал верстку по заданному шаблону, используя <span class='important'>Figma</span>. Спроектировал лишь половину сайта,
+				но, думаю, с меня достаточно — б<span class='important'>О</span>льшая часть вещей мной усвоена!</p>
+				<p>Пришлось писать <span class='important'>файл со стилями самому</span>, потому что мне показалось так удобнее, нежели чем копировать CSS-стили с Figma и подстраивать их под себя.</p>
+				<p>Некоторые места вызвали затруднения, к примеру, выстраивание блоков <code>&lt;<span class='keyword'>div</span>&gt;</code> в секции <code>&lt;<span class='keyword'>section</span>&gt;</code> "в одну строчку".
+				Решил эту проблему, прописав в "стилях" в настройках включающей несколько блоков <code>&lt;<span class='keyword'>div</span>&gt;</code> секции код: <code><span class='keyword'>display</span>: <span class='value'>flex</span>;</code>. И всё успешно выстроилось
+				друг за другом в пределах одной строки, а не под друг другом.</p>
+				<p>Это занятие послужило очень хорошую услугу — теперь я понимаю намного больше в web-вёрстке. <span class='important'>Спасибо организаторам марафона</span> :)</p>
+				<p><time datetime='2021-08-19T22:30:00+03:00'>19.08.2021 (22:30)</time></p>
+			</article>
+		 </div>
+    </section>
+
+    <footer class="page-footer">
+		<div class="container">
+			<p><b class='footer-email'>Email</b>: <a href='mailto:boyletoy@yandex.ru'>BoyLetoy@yandex.ru</a> или <a href='mailto:timllogic@gmail.com'>TimLLogic@gmail.com</a></p>
+			<p><b class='footer-phone'>Телефон</b>: <a href='tel:+79772909486'>8 (977) 290-94-86</a></p>
+		</div>
+    </footer>
+  </body>
+</html>
